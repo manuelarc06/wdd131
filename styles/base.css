@@ -10,6 +10,12 @@ header {
     color: white;
     padding: 1rem 0;
     text-align: center;
+    padding: 1rem 0 0;
+}
+
+header nav {
+    background-color: #333;
+    margin-top: 0.5rem;
 }
 
 #course-title {
@@ -32,6 +38,7 @@ nav {
     background-color: #333;
     padding: 0.7rem 0;
     margin-top: 0;
+    color: white;
 }
 
 nav a {
