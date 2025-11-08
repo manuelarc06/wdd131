@@ -1,7 +1,7 @@
 :root {
     --color-bg: #f9f9fb;
-    --color-primary: #45088a;
-    --color-secondary: #17587e;
+    --color-primary: #17587e;
+    --color-secondary: #2c1c3d;
     --color-text: #1a1a1a;
     --color-accent: #f1b419;
 }
@@ -14,7 +14,7 @@ body {
 }
 
 header {
-    background-color: var(--color-secondary);
+    background-color: var(--color-primary);
     color: white;
     display: flex;
     justify-content: space-between;
@@ -48,14 +48,15 @@ nav {
 }
 
 nav a {
-    color: var(--color-accent);
+    color: white;
     text-decoration: none;
     padding: 1rem;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 nav a:hover {
-    background-color: var(--color-secondary);
+    background-color: var(--color-primary);
+    color: var(--color-accent);
 }
 
 main {
@@ -88,12 +89,12 @@ figure img {
 
 figcaption {
     margin-top: 0.5rem;
-    color: var(--color-primary);
+    color: var(--color-secondary);
     font-weight: bold;
 }
 
 footer {
-    background-color: var(--color-secondary);
+    background-color: var(--color-primary);
     color: white;
     text-align: center;
     padding: 1rem;
