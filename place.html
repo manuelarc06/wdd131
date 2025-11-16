@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="........">
+    <meta name="author" content="Manuela Alejandra Rodríguez Cárdenas">
+    <title>Japan</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Adamina&family=Arbutus+Slab&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <script defer src="scripts/script.js"></script>
+</head>
+
+<body>
+    <header class="site-header">
+        <h1>Japan</h1>
+    </header>
+
+    <main class="page-wrapper">
+
+      <section class="hero">
+          <picture>
+              <source srcset="images/hero-large.webp" media="(min-width: 600px)">
+              <img src="images/hero-small.webp" alt="Fujinomiya, Shizuoka, Japan">
+          </picture>
+
+          <section class="data card">
+              <h2>Data</h2>
+              <ul>
+                  <li><strong>Area:</strong> 377,975 sq km</li>
+                  <li><strong>Population:</strong> 123,300,000</li>
+                  <li><strong>Capital:</strong> Tokyo</li>
+                  <li><strong>Languages:</strong> Japanese</li>
+                  <li><strong>Currency:</strong> Japanese Yen</li>
+                  <li><strong>Time Zone:</strong> UTC+9</li>
+                  <li><strong>Calling Code:</strong> +81</li>
+                  <li><strong>Internet TLD:</strong> .jp</li>
+              </ul>
+          </section>
+
+          <section class="weather card">
+              <h2>Weather</h2>
+              <img src="images/weather.svg" class="weather-icon" alt="Weather icon">
+              <ul>
+                  <li><strong>Temperature:</strong> <span id="temp">17</span> °C</li>
+                  <li><strong>Conditions:</strong> Partly Cloudy</li>
+                  <li><strong>Wind:</strong> <span id="wind">14</span> km/h</li>
+                  <li><strong>Wind Chill:</strong> <span id="windchill"></span> </li>
+              </ul>
+          </section>
+      </section>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentyear"></span> 🍥 Manuela Alejandra Rodríguez Cárdenas 🍥 Japan</p>
+        <p>Last Modification: <span id="lastmodified"></span></p>
+    </footer>
+</body>
+</html>
