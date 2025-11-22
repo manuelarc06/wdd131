@@ -49,17 +49,6 @@ nav {
     width: 150px;
 }
 
-#menu {
-    display: block;
-    background: none;
-    border: none;
-    font-size: 2rem;
-    color: white;
-    cursor: pointer;
-    margin-right: 2rem;
-}
-
-
 nav a {
     color: white;
     text-decoration: none;
