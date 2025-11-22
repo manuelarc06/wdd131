@@ -1,0 +1,23 @@
+@media screen and (min-width: 768px){
+    #menu {
+        display: none;
+    }
+
+    nav {
+        display: flex !important;
+        position: static;
+        flex-direction: row;
+        gap: 2rem;
+        background: none;
+        justify-content: right; /* centra los links horizontalmente */
+        width: 100%;
+    }
+
+    main {
+        max-width: 1000px;
+    }
+
+    .temple-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
