@@ -70,7 +70,7 @@ const temples = [
         location: "Bogotá, Colombia",
         dedicated: "1999, April, 24",
         area: 53500,
-        imageUrl:"https://churchofjesuschristtemples.org/assets/img/temples/bogota-colombia-temple/bogota-colombia-temple-29872.jpg"
+        imageUrl:"https://churchofjesuschristtemples.org/assets/img/temples/bogota-colombia-temple/bogota-colombia-temple-7741-thumb.jpg"
     },
 
     {
@@ -78,7 +78,7 @@ const temples = [
         location: "Manaus, Brazil",
         dedicated: "2012, June, 10",
         area: 32032,
-        imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/manaus-brazil-temple/manaus-brazil-temple-3918.jpg"
+        imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/manaus-brazil-temple/manaus-brazil-temple-16199-thumb.jpg"
     },
 
     {
@@ -86,7 +86,7 @@ const temples = [
         location: "Paris, France",
         dedicated: "2017, May, 21",
         area: 44175,
-        imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/paris-france-temple/paris-france-temple-2054.jpg"
+        imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/paris-france-temple/paris-france-temple-11048-thumb.jpg"
     }
 ];
 
