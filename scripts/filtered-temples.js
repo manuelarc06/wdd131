@@ -70,7 +70,7 @@ const temples = [
         location: "Bogotá, Colombia",
         dedicated: "1999, April, 24",
         area: 53500,
-        imageUrl:"https://churchofjesuschristtemples.org/assets/img/temples/bogota-colombia-temple/bogota-colombia-temple-7741-thumb.jpg"
+        imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/bogota-colombia-temple/bogota-colombia-temple-7741-thumb.jpg"
     },
 
     {
