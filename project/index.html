@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Crochet by Manu: handmade creations, beginner tips, patterns, and personal crochet inspiration.">
+    <meta name="author" content="Manuela Alejandra Rodríguez Cárdenas">
+    <title>Crochet by Manu - WDD 131</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/styles-large.css">
+    <script src="scripts/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Crochet by Manu</h1>
+        <button id="menu" aria-label="Menu">&#9776;</button>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="tips.html">Tips</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Home</h2>
+        <div class="home-grid">
+            <figure>
+                <picture>
+                    <source srcset="images/image-large.webp" media="(min-width: 768px)">
+                    <img src="images/image-small.webp" alt="Crochet Picture">
+                </picture>
+                <div class="info-box info-box-left">
+                    <h3>Site Description</h3>
+                    <p>A creative crochet website with handmade projects, beginner guides, and tips to start your own crochet journey.</p>
+                </div>
+                <div class="info-box info-box-right">
+                    <h3>Quick Info</h3>
+                    <p>Hi, I'm Manuela! I love crochet and here I share my handmade pieces and beginner tips while learning web development.</p>
+                </div>
+            </figure>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; <span id="year"></span> 🍥 Manuela Alejandra Rodríguez Cárdenas 🍥 Colombia</p>
+        <p>Last Modification: <span id="lastModified"></span></p>
+        <a href="references.html">References</a>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,48 @@
+@media screen and (min-width: 768px){
+    #menu {
+        display: none;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #FF6F61;
+        padding: 1rem 2rem;
+    }
+
+    header h1 {
+        font-size: 1.8rem;
+        margin: 0;
+        white-space: nowrap;
+    }
+
+    nav {
+        display: flex !important;
+        position: static;
+        flex-direction: row;
+        gap: 2rem;
+        background: none;
+        justify-content: flex-end;
+        width: auto;
+        margin-left: 0;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+
+    nav a:hover {
+        text-decoration: underline;
+    }
+
+    main {
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 1rem;
+    }
+    
+}
