@@ -1,6 +1,6 @@
 :root {
     --color-bg: #FFF5E1;
-    --color-primary: #FF6F61;
+    --color-primary: #92251b;
     --color-secondary: #3d1c39;
     --color-text: #1a1a1a;
     --color-accent: #f1b419;
@@ -35,7 +35,7 @@ header h1 {
 }
 
 h2 {
-    color: #FF6F61;
+    color: #92251b;
 }
 
 #menu {
@@ -64,7 +64,7 @@ nav a {
     color: white;
     text-decoration: none;
     padding: 1rem;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(17, 17, 17, 0.2);
 }
 
 nav a:hover {
@@ -100,7 +100,7 @@ main {
 
 .info-box {
     position: absolute;
-    background-color: rgba(255, 111, 97, 0.8); 
+    background-color: rgba(87, 22, 16, 0.822); 
     color: white;
     padding: 1rem;
     border-radius: 8px;
@@ -123,7 +123,7 @@ main {
         position: static;
         width: 100%;
         margin-top: 1rem;
-        background-color: rgba(255, 111, 97, 0.9); 
+        background-color: #92251b; 
     }
 
      .home-grid {
