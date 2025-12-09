@@ -21,4 +21,24 @@
     .tips-grid {
         grid-template-columns: repeat(3, 1fr);
     }
+
+    #contact input#name,
+    #contact input#email {
+        width: 48%;
+    }
+
+     #contact select#topic {
+        width: 48%;
+    }
+
+    #contact textarea#message {
+        width: 48%;
+        height: 120px; 
+    }
+
+    #contact button {
+        width: 48%;        
+        padding: 0.5rem 1rem;
+        font-size: 1rem;   
+    }
 }

@@ -104,6 +104,115 @@ main {
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
+#contact {
+    margin-top: 3rem;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+
+#contact h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: var(--color-secondary);
+}
+
+#contact input, 
+#contact select, 
+#contact textarea, 
+#contact button {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin-top: 0.25rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+#contact button {
+    background-color: var(--color-primary);
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+#contact button:hover {
+    background-color: var(--color-accent);
+}
+
+#response {
+    margin-top: 1rem;
+    font-weight: bold;
+    text-align: center;
+    color: var(--color-secondary);
+}
+
+#contact .checkbox-group {
+    display: flex;
+    align-items: center; 
+    gap: 0.5rem; 
+    margin-top: 0.5rem;
+}
+
+#contact input.square-checkbox {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 4px; 
+    cursor: pointer;
+    position: relative;
+}
+
+#contact input.square-checkbox:checked {
+    background-color: var(--color-primary);
+    border-color: var(--color-primary);
+}
+
+#contact input.square-checkbox:checked::after {
+    content: '✔';
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+}
+
+#contact .radio-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem; 
+    margin-top: 0.4rem;
+    margin-bottom: 1rem;
+}
+
+#contact .radio-item {
+    display: flex;
+    align-items: center; 
+    gap: 0.3rem; 
+}
+
+#contact .radio-item input[type="radio"] {
+    width: 14px;
+    height: 14px;
+    border-radius: 45%;
+    cursor: pointer;
+}
+
+#contact .radio-item input[type="radio"]:checked {
+    background-color: var(--color-primary);
+    border-color: var(--color-primary);
+}
+
 
 footer {
     background-color: var(--color-primary);

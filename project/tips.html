@@ -26,6 +26,55 @@
         <div id="tips-cards" class="tips-grid">
             
         </div>
+        <section id="contact">
+            <h2>Have questions or comments about the tips?</h2>
+            <p>Write to me and tell me what you would like to learn about crochet.</p>
+
+            <form id="form-tips" action="#" method="POST">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="topic">Topic of your question:</label><br>
+                <select id="topic" name="topic">
+                    <option value="" disabled selected>Select the topic</option>
+                    <option value="stitches">Crochet stitches</option>
+                    <option value="tools">Tools</option>
+                    <option value="tips">General tips</option>
+                </select><br><br>
+
+                <label>Experience level:</label><br>
+                <div class="radio-group">
+                    <div class="radio-item">
+                        <input type="radio" id="beginner" name="level" value="beginner">
+                        <label for="beginner">Beginner</label>
+                    </div>
+                    <div class="radio-item">
+                        <input type="radio" id="intermediate" name="level" value="intermediate">
+                        <label for="intermediate">Intermediate</label>
+                    </div>
+                    <div class="radio-item">
+                        <input type="radio" id="advanced" name="level" value="advanced">
+                        <label for="advanced">Advanced</label>
+                    </div>
+                </div>
+
+                <label for="message">Your message:</label><br>
+                <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+                <div class="checkbox-group">
+                    <input type="checkbox" id="subscribe" name="subscribe" class="square-checkbox">
+                    <label for="subscribe">I want to receive tips and updates by email</label>
+                </div>
+
+                <button type="submit">Send a Stitch</button>
+            </form>
+
+            <p id="response"></p>
+        </section>
+
     </main>
     <footer>
         <p>&copy; <span id="year"></span> 🍥 Manuela Alejandra Rodríguez Cárdenas 🍥 Colombia</p>
