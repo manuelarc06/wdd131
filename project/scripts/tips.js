@@ -40,10 +40,11 @@ function displayTips(list) {
         const card = document.createElement("section");
         card.classList.add("tips-card");
         card.innerHTML = `
-            <h3>${t.tipName}</h3>
-            <p>${t.tip}</p>
-            <img src="${t.imageUrl}" alt="${t.tipName}" loading="lazy">
+        <h3>${t.tipName}</h3>
+        <p>${t.tip}</p>
+        <img src="${t.imageUrl}" alt="${t.tipName}" loading="lazy">
         `;
+
         container.appendChild(card);
 
         localStorage.setItem('lastTipViewed', JSON.stringify(t));
@@ -66,7 +67,8 @@ form.addEventListener('submit', function(e) {
     const name = document.getElementById('name').value;
     const email = document.getElementById('email').value;
     const topic = document.getElementById('topic').value;
-    const level = document.querySelector('input[name="level"]:checked').value;
+    const selectedLevel = document.querySelector('input[name="level"]:checked');
+    const level = selectedLevel ? selectedLevel.value : "Not selected";
     const message = document.getElementById('message').value;
     const subscribe = document.getElementById('subscribe').checked;
 
